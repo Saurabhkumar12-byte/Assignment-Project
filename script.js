@@ -41,7 +41,7 @@ const getQuote = async ()=>{
             </div>
           </div>`;
             cardWrapper.appendChild(div);
-    setInterval(()=>{cardWrapper.innerHTML="";},10000)
+    setTimeout(()=>{cardWrapper.innerHTML="";},10000)
 }
 
 quote.addEventListener("click", getQuote);
